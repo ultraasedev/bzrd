@@ -1,0 +1,95 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+	<div class="wrapper">
+		<header>
+			<div class="logo"><img src="assets/images/logo.png" alt="BraizeRecords Logo"/></div>
+			<nav class="menu">
+				<ul>
+					<li>
+						<a href="#">Acceuil</a>
+					</li>
+					<li>
+						<a href="#">Roadster</a>
+					</li>
+					<li>
+						<a href="#">Discographie</a>
+					</li>
+					<li>
+						<a href="#">Publishing</a>
+					</li>
+					<li>
+						<a href="#">Studio</a>
+					</li>
+					<li>
+						<a href="#">Studio D.A</a>
+					</li>
+					<li>
+						<a href="#">Label & Artistes Services</a>
+					</li>
+					<li>
+						<a href="#">Contact</a>
+					</li>
+				</ul>
+				<div class="toggleBtn"><span></span>
+                <span></span>
+                </div>
+			</nav>
+		</header>
+		<!--Slide Section-->
+		<div class="slide-wrap">
+         <div class="slider">
+
+<!--Slide 1-->
+         <div class="item">
+          <div class="item-image">
+          <img src="assets/images/slide/1.jpg" alt="Artiste 1">
+          </div>
+            <div class="caption" data-count="01">
+           <h1>XINOS</h1>
+           <h4>Fleau&nbsp;nouveau single maitenant disponible partout en telechargement</h4>
+          </div>
+         <div>
+
+
+         <!--Slide 2-->
+         <div class="item">
+          <div class="item-image">
+          <img src="assets/images/slide/2.jpg" alt="Artiste 2" >
+          </div>
+           <div class="caption" data-count="02">
+           <h1>XINOS</h1>
+           <h4>Fleau&nbsp;nouveau single maitenant disponible partout en telechargement</h4>
+          </div>
+         <div>
+
+
+
+         <!--Slide 1-->
+         <div class="item">
+          <div class="item-image">
+          <img src="assets/images/slide/3.jpg" alt="Artiste 3">
+          </div>
+           <div class="caption" data-count="01">
+           <h1>XINOS</h1>
+           <h4>Fleau&nbsp;nouveau single maitenant disponible partout en telechargement</h4>
+          </div>
+         <div>
+
+
+         </div><!--/= de slider-->
+        </div><!--ex section-->	
+	</div>
+{% block javascript %}
+<script>
+$('.slider').slick({
+    dots: true,
+    vertical: true
+});
+
+
+
+</script>
+
+{% endblock %}
+{% endblock %}
+

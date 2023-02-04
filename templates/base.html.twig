@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<!--Meta Seo-->
+		<meta charset="UTF-8">
+        <meta name="robots"  content="noimageindex">
+		<meta name="description" content="Rejoignez BraizeRecords, suivez et soyez encore plus près de vos artistes préférées et découvrez des contenus exclusifs.">
+		<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
+		<meta name="language" content="fr">
+		<!-- facebook -->
+		<!-- https://developers.facebook.com/docs/plugins/share-button/?locale=fr_FR
+				    You can use Open Graph tags to customize link previews.
+				    Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
+		<meta property="og:site_name" content="BraizeRecords"/> <meta property="og:type" content="website"/>
+		<meta property="og:url" content="https://braizerecords.com/"/>
+		<meta property="og:title" content="BraizeRecords • ENCORE PLUS PROCHE DE VOS ARTISTES FAVORIS"/>
+		<meta property="og:description" content="Rejoignez BraizeRecords,suivez et soyez encore plus près de vos artistes préférées et découvrez des contenus exclusifs."/>
+		<meta property="og:image" content="https://braizerecords.com/images/cover-social-networks.png"/>
+		<meta property="og:image:width" content="1200">
+		<meta
+		property="og:image:height" content="628">
+
+		<!-- twitter -->
+		<meta property="twitter:card" content="summary">
+		<meta property="twitter:url" content="https://braizerecords.com/"/>
+		<meta property="twitter:title" content="BraizeRecords • Réseau social exclusif">
+		<meta property="twitter:description" content="Rejoignez BraizeRecords,suivez et soyez encore plus près de vos artistes préférées et découvrez des contenus exclusifs.">
+		<meta
+		property="twitter:image" content="https://braizerecords.com/images/cover-social-networks.png">
+
+		<!--Meta App-->
+		<meta name="application-name" content="braizerecords.com">
+		<meta name="theme-color" content="#020408">
+		<meta name="msapplication-TileColor" content="#020408">
+		<!--Link Icon & Title-->
+		<link rel="shortcut icon" href="{{ asset('build/images/favicon.ico') }}">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+		<title>
+			{% block title %}BRAIZERECORDS
+			{% endblock %}
+		</title>
+		<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text></svg>">
+
+		<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/styles.min.css') }}">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/brands.min.css" integrity="sha512-G/T7HQJXSeNV7mKMXeJKlYNJ0jrs8RsWzYG7rVACye+qrcUhEAYKYzaa+VFy6eFzM2+/JT1Q+eqBbZFSHmJQew==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/fontawesome.min.css" integrity="sha512-giQeaPns4lQTBMRpOOHsYnGw1tGVzbAIHUyHRgn7+6FmiEgGGjaG0T2LZJmAPMzRCl+Cug0ItQ2xDZpTmEc+CQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+      
+	  <!--JS-->
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+	</head>
+	<body>
+		{% block body %}{% endblock %}
+	</body>
+</html>

@@ -1,0 +1,98 @@
+body{
+    background-color: #111111;
+    font-weight: 400;
+    overflow-x: hidden;
+    font-family: 'Poppins';
+  
+}
+header{
+    display: inline-block;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 40px 50px;
+    z-index: 99;
+}
+.logo{
+    float: left;
+}
+
+.logo img{
+    right: 0;
+    margin-top: -150px;
+    margin-left: -140px;
+}
+.menu{
+    float: right;
+}
+.menu ul{
+    float: left;
+}
+.menu ul li{
+    display: inline-block;
+    margin-top: 30px;
+}
+.menu ul li a{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    margin: 5px 11px;
+   top: 40px;
+    text-shadow: 1px 1px 1px #000;
+}
+.menu a:hover{
+    color: #c0392b;
+    text-shadow: 0;
+}
+.toggleBtn{
+    display: inline-block;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.toggleBtn span{
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+}
+.toggleBtn span:nth-child(2){
+    top: 15px;
+}
+.slider .item{
+ background-color: #000;
+}
+.item-image{
+    float: left;
+}
+.caption{
+    float: left;
+    color: #fff;
+    padding: 230px 0;
+    position: relative;
+}
+.caption h1{
+    font-weight: 400;
+    font-size: 126px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-transform: 10 15px 0 rgba(0 0 0 / 0.25);
+}
+.caption h4{
+    font-weight: 400;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.slick-arrow{
+    position: absolute;
+    font-size: 0;
+    width: 17px;
+    height: 81px;
+}
